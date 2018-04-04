@@ -1,0 +1,12 @@
+bobc-bom-plugin-example:
+  description: BOM Plugin example
+  packages:
+  - content:
+    - name: BOMPluginExample
+      checksum: "SHA-256:6efa11d2da40bd24e8fbaecf750df1275feb93676bfda2a88894629ab55a21a2"
+      size: 798
+      type: bom-plugin
+      url: https://raw.githubusercontent.com/bobc/BOM_Plugin_Example/master/BOM_Plugin_example-0.1.0.zip
+      cmd: 'xsltproc -o "%O.csv" "${BOM_SCRIPT}/bom_cvs_test.xsl" "%I"'
+    version: '0.1.0'
+  publisher: bobc
